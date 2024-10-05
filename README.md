@@ -1,5 +1,8 @@
 # Modern Developer Portfolio
 
+![image](https://github.com/JoelVStan/Modern-Portfolio-NextJS/assets/101164781/a6673401-7a57-457a-900b-56b62f07b17f)
+
+
 ## Introduction
 The **Modern Developer Portfolio** is a sleek and contemporary portfolio template designed to showcase a developer's skills, projects, and experiences. Built using Next.JS, this portfolio template leverages the power of React for a dynamic user experience, TailwindCSS for easy and customizable styling, and Framer Motion for smooth animations. Additionally, ThreeJS is integrated for 3D graphics, providing a visually stunning and interactive way to present your work. The project aims to help developers create an impressive online presence with minimal effort.
 
@@ -73,6 +76,11 @@ For more detailed documentation on each of the technologies used in this project
 ## View
 
 To see the Modern Developer Portfolio in action, visit the live demo at [Modern Developer Portfolio](https://i-am-joetstan.vercel.app/).
+
+![image](https://github.com/JoelVStan/Modern-Portfolio-NextJS/assets/101164781/407b30f8-914a-4066-ae26-19d7cb4a414b)
+
+
+
 
 ## License
 
