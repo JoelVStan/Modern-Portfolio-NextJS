@@ -96,13 +96,13 @@ const RecentProjects = () => {
       {selectedProject && (
         <div className="fixed inset-0 bg-black bg-opacity-60 flex justify-center items-center z-50">
           <div className="relative bg-black-100 p-4 sm:p-6 pt-2 rounded-lg w-[90vw] sm:w-11/12 lg:w-3/5 max-w-lg max-h-[90vh] overflow-y-auto">
-            {/* Close button in top-right corner */}
+            {/* Close button in top-right corner
             <button
               className="absolute top-2 right-2 text-gray-500 hover:text-gray-700"
               onClick={closeModal}
             >
               <FaTimes className="text-2xl" />
-            </button>
+            </button> */}
 
             {/* Reduced gap above the image */}
             <img 
@@ -127,16 +127,27 @@ const RecentProjects = () => {
                 </li>
               ))}
             </ul>
+            
+            <div className="flex w-full mt-4">
+              {/* View Project on GitHub Button (2/3 width) */}
+              <a
+                href={selectedProject.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white text-black font-semibold py-2 px-4 rounded-lg flex items-center justify-center w-2/3 mr-2" // 2/3 width with margin-right
+              >
+                View Project on GitHub
+                <FaGithub className="ml-2" /> {/* Add GitHub icon */}
+              </a>
 
-            <a
-              href={selectedProject.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center justify-center bg-white text-black border border-black px-4 py-2 rounded-lg transition-all duration-300 hover:bg-gray-200"
-            >
-              View Project on GitHub
-              <FaGithub className="ml-2" /> {/* Add GitHub icon */}
-            </a>
+              {/* Close Button (1/3 width) */}
+              <button
+                onClick={closeModal}
+                className="bg-red-500 text-white font-semibold py-2 px-4 rounded-lg flex items-center justify-center w-1/3" // 1/3 width
+              >
+                Close
+              </button>
+            </div>
           </div>
         </div>
       )}

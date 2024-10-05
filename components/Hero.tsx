@@ -31,7 +31,7 @@ const Hero = () => {
                 </p>
 
                 <div className='md:flex md:flex-row md:space-x-4'>
-                    <a href="https://github.com/JoelVStan/Resume-JoelStan" target="_blank">
+                    <a href="/Joel-Stanley-Resume.pdf" download target="_blank">
                         <MagicButton title="Download CV" icon={<IoMdDownload />} position={'left'}/>
                     </a>
 
