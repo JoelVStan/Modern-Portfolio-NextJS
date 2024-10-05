@@ -75,7 +75,7 @@ For more detailed documentation on each of the technologies used in this project
 
 ## View
 
-To see the Modern Developer Portfolio in action, visit the live demo at [Modern Developer Portfolio](https://i-am-joetstan.vercel.app/).
+To see the Modern Developer Portfolio in action, visit the live demo at [Modern Developer Portfolio](https://i-am-joelstan.vercel.app/).
 
 ![image](https://github.com/JoelVStan/Modern-Portfolio-NextJS/assets/101164781/407b30f8-914a-4066-ae26-19d7cb4a414b)
 
