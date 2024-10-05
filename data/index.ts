@@ -72,7 +72,7 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "BlogbBuzz - Blog Application",
+    title: "BlogBuzz - Blog Application",
     des: "BlogBuzz is a dynamic blog app for exploring and sharing technology and development blogs with an intuitive user experience.",
     img: "/BlogBuzz.png",
     popupImg: "/BlogBuzzFull.png",

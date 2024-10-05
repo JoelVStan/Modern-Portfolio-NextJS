@@ -136,7 +136,7 @@ const RecentProjects = () => {
                 rel="noopener noreferrer"
                 className="bg-white text-black font-semibold py-2 px-4 rounded-lg flex items-center justify-center w-2/3 mr-2" // 2/3 width with margin-right
               >
-                View Project on GitHub
+                View on GitHub
                 <FaGithub className="ml-2" /> {/* Add GitHub icon */}
               </a>
 
